@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--css-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="images/planet.png" type="image/x-icon">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>pochtarenko_web</title>
+</head>
+
+<body>
+    <div class="color">  
+    <header class="mb-3">
+        <div class="container-lg">
+            <img class="mt-1" src="https://i.gifer.com/LV41.gif" alt="header__logo">
+                <div class="header__text py-5 text-center ">
+                Codex CREDD
+                </div>
+        </div>    
+    </header>
+
+    <nav>
+        <div class="container-lg">
+            <ul class="nav d-flex ps-0 flex-column justify-content-sm-center  text-center flex-sm-row d-flex ">
+                <li class="nav-item "><a href="#task1" class="m-2 p-1 border border-dark border border-1 nav-linl">Ссылки</a></li>
+                <li class="nav-item "><a href="#table" class="m-2 p-1 border border-dark border border-1 nav-linl" >Таблица</a></li>
+                <li class="nav-item "><a href="#form" class="m-2 p-1 border border-dark border border-1 nav-linl" >Форма</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="m-2">      
+        <div class="conteiner-lg">
+            <div class="container__row d-flex flex-column">
+                <div class="conURLS p-2">
+                    <h2 id="task1" class="conURLS p-2">Ссылки:</h2>
+                    <a id="comeback"></a>
+                        <ol>     
+                            <li><a href="http://example.com">Абсолютная гиперссылкa на главную страницу сайта example.com </a></li>
+                            <li><a href="https://example.com">Абсолютная на главную сайта example.com в протоколе https </a></li>
+                            <li><a href="ftp://google.com/fallout/file1.txt">Ссылка на файл на сервере FTP без авторизации</a></li>
+                            <li><a href="ftp://test:password@admin.ru/data/file2.txt">Ссылка на файл на сервере FTP с авторизацией</a></li>
+                            <li><a href="combo.html#lyrics" target="_blank">Ссылку на фрагмент страницы некоторого сайт</a></li>  
+                            <li><a href="#“twice”">Ссылка на фрагмент текущей страницы</a></li>
+                            <li><a href="https://www.onlinestore.ru?product=t-shitt&color=white" target="_blank">Ссылка с двумя параметрами в URL</a></li>
+                            <li>
+                                <p>Навигация</p>
+                                <nav>
+                                    <ul>
+                                        <li><a href="#task1" title="task">Ссылки</a></li> 
+                                        <li><a href="#form" title="form">Форма</a></li>
+                                    </ul>
+                                </nav>
+                            </li>
+                            <li><a>Ссылка без "href"</a></li>
+                            <li><a href="">Ссылка с пустым "href"</a></li>
+                            <li><a href="http://example.com" rel = "nofollow"> Ссылка, по которой запрещен переход поисковикам</a></li>
+                            <li><a href="http://example.com" rel = "noindex">Запрещенная для индексации поисковиками</a></li>
+                            
+                            <li><p><a id=“Bob”>Bob</a> Здесь можно послушать и успокоиться <a href="https://music.yandex.ru/album/15358644/track/82304736"> here </a> </p></li>
+                            <li><a href="https://youtu.be/tfUPbO_vGzM" target="_blank"><img src="https://wallbox.ru/resize/1440x900/wallpapers/main2/202030/15956695365f1bfc20b95421.79510089.jpg" alt="cover"></a></li>
+                            <li>А здесь можно посмотреть и успокоиться
+                            <br>
+                                <img src = "https://wallbox.ru/wallpapers/main2/202030/15956695365f1bfc20b95421.79510089.jpg" usemap = "#figures" alt = "youtube or yandex music">
+                                <map name = "figures">
+                                    <area shape = "rect" coords = "0,0,210,100" href = "https://youtu.be/tfUPbO_vGzM" alt = "square">
+                                    <area shape = "circle" coords = "350,200,150" href = "https://music.yandex.ru/album/15358644/track/82304736" alt = "circle">
+                                </map>
+                            </li>
+                            <li><a href="index.html">Относительная ссылка</a></li>
+                            <li><a href="about/about.html">Относительная ссылка на старницу в каталоге about</a></li>
+                            <li><a href="../index.html">Относительная ссылка уровнем выше</a></li>
+                            <li><a href="../../index.html">Относительная ссылка на 2 уровня выше</a></li>
+                            <li><a href="/">Сокращенная ссылка на главную</a></li>
+                            <li><a href="/srr.html">Сокращенная ссылка на внутреннюю</a></li>
+                        </ol>
+                </div>
+
+
+                
+                <div class="container__table p-2 mt-1 order-3 order-sm-2  ">
+                        <table class="table table-bordered table border border-dark border border-2 ">
+                            <div class="content-of-table pt-2 ">
+                                <h1 id="table">Таблица</h1>
+                        <table>
+                            <div class="content-of-table">
+                                <tr>
+                                    <th>==Ячейка 1==</th>
+                                    <th>==Ячейка 2==</th>
+                                    <th>==Ячейка 3==</th>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://www.natgeotv.com/ru">natgeotv</a></td>
+                                    <td><a href="https://www.figma.com/files/recent?fuid=1153021823036082621">figma</a></td>
+                                    <td><a href="https://netology.ru/">netology</a></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><a href="https://www.ozon.ru/">ozone</a> </td>
+                                    <td rowspan="2"><a href="https://www.behance.net/galleries">behance</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://dribbble.com">dribble</a></td>
+                                    <td><a href="https://javarush.ru/quests/lectures/questsyntaxpro.level05.lecture02">javarush</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://youtube.com/">youtube</a></td>
+                                    <td><a href="https://mail.google.com/">gmail</a></td>
+                                    <td><a href="https://mail.ru/">mailru</a></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3"><a href="https://ya.ru/"> yandex </a></td>
+                                </tr>
+                            </div>
+                        </table>
+                </div> 
+                
+                <div class="container__form p-2 mt-2 order-2 order-sm-3">
+                    <h2 id="form">Форма</h2>
+                    <form action="/" method="POST">
+                        <div class="content-of-form">
+                            <label>
+                                Имя<br>
+                                <input name="field-name-1" value="Имя">
+                            </label><br>
+                    
+                            <label>
+                                email:<br>
+                                <input name="field-email" value="test@gmail.com" type="email">
+                            </label><br>
+                    
+                            <label>
+                                Дата рождения<br>
+                                <input name="field-date" value="2003-03-05" type="date">
+                            </label><br>
+                    
+                            Пол:<br> 
+                            <abel><input type="radio" name="radio-group-1" value="men">
+                                Мужчина</label><br>
+                            <label><input type="radio" checked="checked" name="radio-group-1" value="female">
+                                Женщина</label><br>
+                            <label><input type="radio" name="radio-group-1" value="other">
+                                Джедай</label><br>
+                    
+                            Сколько у вас конечностей?<br>
+                            <label><input type="radio" checked="checked" name="radio-group-2" value="1">
+                                1</label>
+                            <label><input type="radio" checked="checked" name="radio-group-2" value="2">
+                                2</label>
+                            <label><input type="radio" checked="checked" name="radio-group-2" value="3">
+                                3</label>
+                            <label><input type="radio" name="radio-group-2" value="4">
+                                4(норма)</label>
+                            <label><input type="radio" checked="checked" name="radio-group-2" value="5">
+                                5(перебор)</label>
+                            <br>
+
+                            <label>
+                                Расскажите о себе:
+                                <br>
+                                <textarea name="field-name-2" style="margin: 0px; height: 35px; width: 187px;">чуть чуть</textarea>
+                            </label><br>
+                    
+                            <label><input type="checkbox" checked="checked" name="check-1">
+                                Согласен(a)</label><br>
+
+                            <label>
+                                <input type="submit" name="submit" value="send">
+                            </label>   
+                        </div>    
+                    </form> 
+                </div>         
+            </div>
+        </div>
+    </section>
+        <footer class="mt-1">
+            <div class="content">
+                <div class="footrow d-flex  flex-column justify-content-center align-items-center">
+                    <div class="footext pt2">
+                        Pochtarenko Vladislav 2022
+                    </div> 
+                </div>
+            </div>           
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+    </div>
+</body>
+</html>
